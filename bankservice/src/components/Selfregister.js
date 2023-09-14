@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 export default function RegistrationForm() {
@@ -206,6 +207,7 @@ export default function RegistrationForm() {
                             </select>
                         </div>
                         <button type="submit" className="btn btn-primary">Register</button>
+                        <Link to="/" className="btn btn-link">Cancel</Link>
                     </form>
                 </div>
             </div>
